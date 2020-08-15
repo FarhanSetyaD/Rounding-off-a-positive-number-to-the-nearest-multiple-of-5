@@ -1,6 +1,6 @@
 def prev(number, base):
     # base = 5
-    temp = (round(number / base) * base) - base
+    temp = (math.ceil(number / base) * base) - base
     return temp
     
 def anotherPrev(number, base):
